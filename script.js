@@ -3,8 +3,8 @@ function openPresent(event) {
   newHeader.textContent = 'Te amo mi Milagros, amor mio!';
   const newImage = document.createElement('img');
   newImage.src = 'corazon.gif';
-  
-  const container = document.querySelector('#container');
+
+  const container = document.querySelector('.regalo');
   container.innerHTML = '';
   container.appendChild(newHeader);
   container.appendChild(newImage);
